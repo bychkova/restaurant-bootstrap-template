@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+}
+
+header{
+    background: url(../img-restaurant/header-bg.png);
+    min-height: 500px; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 5%;
+    padding-bottom: 60px;
+}
+
+
+h1 {
+    font-size: 7.5vw;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(1,1,1,0.64);
+    text-transform: lowercase;
+}
+
+h1:after{
+    content: "";
+    display: block;
+    width: 232px;
+    height: 43px;
+    background: url(../img-restaurant/h1-devider.png);
+    margin: 20px auto;
+}
+
+.reservation-links {
+    justify-content: center;
+    text-align: center;
+}
+
+.reservation-links a {
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 190px;
+    max-width: 190px;
+    padding: 10px 20px;
+    margin: 10px;
+    background: rgba(200,200,200,0.24);
+}
+
+.reservation-links a:hover {
+    border: 1px solid white;
+    background: rgba(1,1,1,0.24);
+    text-decoration: none;
+}
+
+section#about {
+    padding: 50px 5%;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.about-info h2 {
+    color: #cc9900;
+    font-size: 2em;
+}
+
+.about-info h2:after {
+    content: "";
+    display: block;
+    width: 247px;
+    height: 24px;
+    background: url(../img-restaurant/gold-Divider.png);
+    margin: 10px auto;
+}
+
+.about-info p {
+    font-size: 0.9em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-info img {
+    width: 150px;
+    height: auto;
+    margin-left: 50px;
+}
+
+section#ingredients{
+    background: url(../img-restaurant/ingredients-bg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    padding: 40px;
+}
+
+.igredients-info {
+    background: rgba(1,1,1,0.64);
+    color: white;
+    max-width: 500px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.igredients-info h2 {
+    font-size: 2em;
+}
+
+.igredients-info h2:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 19px;
+    background: url(../img-restaurant/devider.png);
+    margin: 10px auto;
+}
+
+.igredients-info p {
+    font-size: 0.9em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+section#menu {
+    padding: 40px 5%;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    font-size: 1.5em;
+    color: #cc9900;
+    text-align: center;
+}
+
+th:after {
+    content: "";
+    display: block;
+    width: 247px;
+    height: 24px;
+    background: url(../img-restaurant/gold-Divider.png);
+    margin: 10px auto;
+}
+
+td {
+    color: #cc9900;
+}
+
+tr.dish-name {
+    border-bottom: 1px solid #cc9900;
+}
+
+td.dish-description {
+    color: black;
+    font-size: 0.9em;
+    padding: 10px 0px;
+}
+
+section#review{
+    background: url(../img-restaurant/review-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 10px;
+}
+
+.review-info {
+    background: rgba(1,1,1,0.64);
+    color: white;
+    max-width: 500px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.review-info>h2{
+    font-size: 2em;
+}
+
+.review-info h2:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 19px;
+    background: url(../img-restaurant/devider.png);
+    margin: 10px auto;
+}
+
+section#reservation {
+    padding: 40px 5%;
+}
+
+.reservation-info h2 {
+    font-size: 1.5em;
+    color: #cc9900;
+    text-align: center;
+}
+
+.reservation-info h2:after {
+    content: "";
+    display: block;
+    width: 247px;
+    height: 24px;
+    background: url(../img-restaurant/gold-Divider.png);
+    margin: 10px auto;
+}
+
+.reservation-info p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+label {
+    color: #cc9900;
+    font-size: 0.9em;
+    font-weight: 700;
+    width: 45%;
+    display: inline-block;
+}
+
+input, select {
+    width: 100%;
+    border-radius: 1px;
+    outline: none;
+    background: rgba(100,100,100,0.14);
+    border: 1px solid rgba(100,100,100,0.14);
+    padding: 5px;
+}
+
+input[type="submit"] {
+    width: 40%;
+    display: block;
+    margin: 10px auto;
+    background: #cc9900;
+    border: 1px solid #cc9900;
+    outline: none;
+    border-radius: 1px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid rgba(1,1,1,0.24);
+}
+
+footer {
+    background: #191919;
+    color: white;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 30px;
+}
+
+footer>div.row {
+    margin: 0 10%;
+}
+
+.opening-hours {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+footer h3:after {
+    content: "";
+    display: block;
+    width: 190px;
+    height: 19px;
+    background: url(../img-restaurant/devider.png);
+    margin: 10px auto;
+}
