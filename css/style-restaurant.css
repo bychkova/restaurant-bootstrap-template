@@ -19,6 +19,14 @@ header{
     padding-bottom: 60px;
 }
 
+div#navbarSupportedContent>ul>li>a {
+    color: white;
+}
+
+div#navbarSupportedContent>ul>li>a:hover {
+    color: rgba(255,255,255,0.8);
+}
+
 
 h1 {
     font-size: 7.5vw;
